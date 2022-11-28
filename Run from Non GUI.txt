@@ -1,0 +1,41 @@
+Please select Test Run your going to run:
+
+TR-0 Test Run
+
+set hour=%time: =0% 
+jmeter -n -Jenvironment=env.perf.telflow.com -Jmodule=TR-0 -t uff-testplan\TestPlan-UFF.jmx -l uff-testplan\jtl\TR-0_${__time("ddMMyyyy_HHmmss")}.jtl -j uff-testplan\log\TR-0_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%hour:~0,2%%time:~3,2%%time:~6,2%.log
+
+TR-1 Test Run
+
+set hour=%time: =0% 
+jmeter -n -Jenvironment=env.perf.telflow.com -Jmodule=TR-1 -t uff-testplan\TestPlan-UFF.jmx -l uff-testplan\jtl\TR-1_${__time("ddMMyyyy_HHmmss")}.jtl -j uff-testplan\log\TR-0_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%hour:~0,2%%time:~3,2%%time:~6,2%.log
+
+TR-2 Test Run
+
+set hour=%time: =0% 
+jmeter -n -Jenvironment=env.perf.telflow.com -Jmodule=TR-2 -t uff-testplan\TestPlan-UFF.jmx -l uff-testplan\jtl\TR-2_${__time("ddMMyyyy_HHmmss")}.jtl -j uff-testplan\log\TR-0_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%hour:~0,2%%time:~3,2%%time:~6,2%.log
+
+TR-3 Test Run
+
+set hour=%time: =0% 
+jmeter -n -Jenvironment=env.perf.telflow.com -Jmodule=TR-3 -t uff-testplan\TestPlan-UFF.jmx -l uff-testplan\jtl\TR-3_${__time("ddMMyyyy_HHmmss")}.jtl -j uff-testplan\log\TR-0_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%hour:~0,2%%time:~3,2%%time:~6,2%.log
+
+TR-4 Test Run
+
+set hour=%time: =0% 
+jmeter -n -Jenvironment=env.perf.telflow.com -Jmodule=TR-4 -t uff-testplan\TestPlan-UFF.jmx -l uff-testplan\jtl\TR-4_${__time("ddMMyyyy_HHmmss")}.jtl -j uff-testplan\log\TR-0_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%hour:~0,2%%time:~3,2%%time:~6,2%.log
+
+TR-5 Test Run
+
+set hour=%time: =0% 
+jmeter -n -Jenvironment=env.perf.telflow.com -Jmodule=TR-5 -t uff-testplan\TestPlan-UFF.jmx -l uff-testplan\jtl\TR-5_${__time("ddMMyyyy_HHmmss")}.jtl -j uff-testplan\log\TR-0_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%hour:~0,2%%time:~3,2%%time:~6,2%.log
+
+TR-6 Test Run
+
+set hour=%time: =0% 
+jmeter -n -Jenvironment=env.perf.telflow.com -Jmodule=TR-6 -t uff-testplan\TestPlan-UFF.jmx -l uff-testplan\jtl\TR-6_${__time("ddMMyyyy_HHmmss")}.jtl -j uff-testplan\log\TR-0_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%hour:~0,2%%time:~3,2%%time:~6,2%.log
+
+TR-7 Test Run
+
+set hour=%time: =0% 
+jmeter -n -Jenvironment=env.perf.telflow.com -Jmodule=TR-7 -t uff-testplan\TestPlan-UFF.jmx -l uff-testplan\jtl\TR-7_${__time("ddMMyyyy_HHmmss")}.jtl -j uff-testplan\log\TR-0_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%hour:~0,2%%time:~3,2%%time:~6,2%.log

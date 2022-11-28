@@ -1,0 +1,27 @@
+"{
+  ""catalog"": {
+    ""Type"": ""Product"",
+    ""Offerings"": [
+      {
+        ""BusinessInteractionSpecificationRelationships"": {
+          ""BusinessInteractionSpecificationRelationship"": [
+            {
+              ""Type"": ""Managed"",
+              ""BusinessInteractionSpecification"": {
+                ""Type"": ""NewCustomerOrder""
+              }
+            }
+          ]
+        },
+        ""OfferingRelationships"": {
+          ""OfferingRelationship"": []
+        }
+      }
+    ],
+    ""AvailableFor"": [
+      {
+        ""ID"": ""PTR-PROVIDER-UFF""
+      }
+    ]
+  }
+}"

@@ -1,0 +1,62 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+[Load] - TR 25 Task Search:/auth/realms/telflow/protocol/openid-connect/auth-9,6427,463,449,488,540,660,75,4157,0.016%,1.56186,10.77,2.17
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - 000 - 000001 /auth/realms/telflow/login-actions/authenticate?,6418,264,231,425,486,642,139,1242,50.358%,1.56258,4.95,2.31
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - 000 - 000002 /portal/,6413,1408,956,2616,3126,3668,132,6822,0.062%,1.56323,13.61,4.66
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search portal/fulfilment,6409,1082,948,2029,2564,3041,105,5133,0.016%,1.56251,14.91,4.99
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search /portal/tasks,12816,324,311,426,471,556,163,3606,0.000%,3.12525,19.36,4.13
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search /portal/api/task/task/count,6408,1209,332,3638,5579,10586,180,23797,0.047%,1.56272,6.93,1.94
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search /portal/api/specification/component,6405,493,309,1056,1447,2173,165,2996,0.062%,1.56208,7.10,2.00
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search /portal/api/task/task/search,12797,2501,430,7220,9444,13869,278,25460,0.063%,3.12122,16.40,4.11
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search /portal/api/party,6398,861,435,1384,2625,3271,277,3919,0.031%,1.56065,16.02,1.97
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - 999 - 000001 /portal/login/login/logout,6381,2494,901,4443,4565,5484,555,10060,0.063%,1.55847,20.50,9.24
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (1),130,14959,16374,27544,29716,36170,4403,36483,45.385%,.03159,2.62,0.76
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (2),140,12432,4893,25523,29071,35177,4444,41014,57.143%,.03416,2.88,0.82
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (4),134,13667,5763,26758,28902,36062,4443,40386,50.746%,.03291,2.75,0.79
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (3),129,14249,15692,25746,28040,37914,4435,42330,44.961%,.03176,2.64,0.77
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (5),137,12962,5139,26788,29152,39988,4436,40867,54.015%,.03360,2.82,0.81
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (6),134,13534,4984,25708,28968,35611,4425,37186,50.746%,.03293,2.75,0.79
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (7),133,13769,13234,26071,29586,34534,4447,35422,48.872%,.03292,2.75,0.79
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (8),137,12820,4791,24854,29790,39191,4427,42587,53.285%,.03370,2.82,0.81
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (9),131,13981,13382,26695,28266,34357,4458,38343,48.092%,.03228,2.69,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (10),127,14677,15465,27195,31331,41989,4443,45118,46.457%,.03150,2.62,0.76
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (11),136,13393,5129,27101,30430,34509,4465,36254,53.676%,.03365,2.83,0.81
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (12),133,13472,5749,25355,29665,38259,4487,50330,52.632%,.03297,2.77,0.79
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (13),133,13363,4861,27548,29125,38938,4410,43176,54.135%,.03301,2.77,0.79
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (15),137,12632,4811,25508,31340,35572,4017,41732,56.934%,.03413,2.88,0.82
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (14),129,14242,13018,27832,31857,35547,3947,41242,49.612%,.03207,2.68,0.77
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (16),123,15686,18463,27592,32253,37948,4482,41844,42.276%,.03080,2.55,0.75
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (18),129,13643,5324,28177,31884,36834,4403,38943,51.938%,.03248,2.72,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (17),136,12168,4741,24846,26999,34395,4461,36308,58.088%,.03404,2.87,0.81
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (19),127,14404,15115,27521,32907,40419,4466,42563,47.244%,.03193,2.66,0.77
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (20),132,13629,6071,26365,29422,36228,4478,42215,51.515%,.03318,2.78,0.80
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (21),125,14717,16562,26549,31409,35673,4480,37283,47.200%,.03171,2.64,0.76
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (22),128,13942,6225,27154,30308,33076,4439,34291,50.781%,.03249,2.72,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (23),128,14096,9982,26959,31638,34335,3985,42652,50.000%,.03235,2.70,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (24),128,13973,6913,28195,31891,37701,4470,39846,50.000%,.03258,2.72,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (27),127,14369,6612,28183,30308,41457,4428,43480,51.181%,.03244,2.72,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (25),133,12664,4727,26135,29151,36667,4449,38982,57.143%,.03378,2.85,0.81
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (26),129,13590,6766,25683,29178,40784,4462,41982,51.163%,.03282,2.75,0.79
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (28),122,15279,16133,29370,33107,38757,4442,41038,44.262%,.03127,2.59,0.76
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (29),128,13380,4883,25940,30433,34454,4446,35774,53.906%,.03280,2.76,0.79
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (32),122,14969,16810,27740,30206,37690,4457,40665,45.902%,.03154,2.62,0.76
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (30),125,14092,5692,28140,32749,39067,4419,41959,52.000%,.03213,2.69,0.77
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (33),122,14833,15540,28860,32505,36574,4471,41761,48.361%,.03156,2.63,0.76
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (31),125,14170,6539,27271,29506,41807,4478,46126,50.400%,.03230,2.70,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (34),121,15179,17489,28446,30796,32450,4403,33960,45.455%,.03120,2.59,0.75
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (36),124,14149,15247,26501,29281,34381,4481,34580,48.387%,.03224,2.69,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (35),130,13160,5069,27240,29460,34782,4454,47283,56.154%,.03359,2.83,0.80
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (37),116,16358,18257,29843,32452,35144,4476,37251,38.793%,.03012,2.48,0.73
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (38),130,13019,4885,27016,32303,36259,4470,36684,56.154%,.03383,2.85,0.81
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (39),124,14222,7664,27687,30126,32550,4446,33776,50.000%,.03228,2.69,0.77
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (41),121,14825,16709,29124,29979,34621,4497,38707,46.281%,.03187,2.65,0.77
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (40),125,14152,15598,26533,29167,37197,4061,43523,48.800%,.03260,2.72,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (42),127,13408,5199,25595,29641,34329,4418,39409,51.969%,.03337,2.80,0.80
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (43),122,13789,5503,28172,30700,39940,4409,43739,52.459%,.03216,2.70,0.77
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (45),127,13154,4810,26094,29651,36338,4462,38406,55.118%,.03347,2.82,0.80
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (44),133,11805,4836,24175,27264,35028,4478,35110,58.647%,.03506,2.96,0.84
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (46),123,13967,5477,29397,31130,35853,4002,41519,52.846%,.03244,2.72,0.78
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (49),115,15294,17246,27854,30608,35103,4429,42347,43.478%,.03062,2.54,0.74
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (50),118,15449,17920,27838,32489,46212,4456,46657,45.763%,.03136,2.60,0.76
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (47),119,14939,17160,27725,28966,40646,4429,43897,45.378%,.03145,2.61,0.76
+[Load] - TR 25 Task Search:[Load] - TR 25 Task Search - View Task  (48),127,12648,4976,25699,28521,34594,4460,41775,56.693%,.03392,2.86,0.81
+TOTAL,83263,2138,461,4651,8473,26037,75,50330,7.797%,20.23197,259.93,74.70

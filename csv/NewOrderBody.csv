@@ -1,0 +1,1605 @@
+"{
+  ""businessInteraction"": {
+    ""ID"": """",
+    ""ProvisioningStatus"": """",
+    ""InteractionSubState"": """",
+    ""Name"": """",
+    ""HeadlineCharacteristics"": """",
+    ""InteractionDatePlannedCompletion"": """",
+    ""InteractionDateExpiry"": """",
+    ""InteractionStatus"": {
+      ""ID"": ""LCS000000000001"",
+      ""Type"": ""Start""
+    },
+    ""SpecifiedBy"": {
+      ""ID"": ""UFF-ORD-NEW-BITSTREAM-08-00""
+    },
+    ""Associations"": null,
+    ""DescribedBy"": {
+      ""CharacteristicValue"": [
+        {
+          ""Characteristic"": {
+            ""ID"": ""connectionType"",
+            ""Name"": ""Connection Type"",
+            ""Type"": ""Enumerated"",
+            ""DisplayFormat"": """",
+            ""MinCardinality"": 1,
+            ""MaxCardinality"": 1,
+            ""RateCodes"": {
+              ""RateCode"": []
+            }
+          },
+          ""Value"": ""New Build"",
+          ""SpecCharValueInstantiatedAs"": {
+            ""ValueType"": ""String"",
+            ""UnitOfMeasure"": """",
+            ""RateCodes"": {
+              ""RateCode"": []
+            }
+          }
+        },
+        {
+          ""Characteristic"": {
+            ""ID"": ""projectBulkMigration"",
+            ""Name"": ""Project/Bulk Migration"",
+            ""Type"": ""Enumerated"",
+            ""DisplayFormat"": """",
+            ""MinCardinality"": 0,
+            ""MaxCardinality"": 1,
+            ""RateCodes"": {
+              ""RateCode"": []
+            }
+          },
+          ""Value"": ""No"",
+          ""SpecCharValueInstantiatedAs"": {
+            ""ValueType"": ""String"",
+            ""UnitOfMeasure"": """",
+            ""RateCodes"": {
+              ""RateCode"": []
+            }
+          }
+        },
+        {
+          ""Characteristic"": {
+            ""ID"": ""hideAtSubmission"",
+            ""Name"": ""Hide at Submission"",
+            ""Type"": ""KeyValue"",
+            ""DisplayFormat"": """",
+            ""MinCardinality"": 0,
+            ""MaxCardinality"": 1,
+            ""RateCodes"": {
+              ""RateCode"": []
+            }
+          },
+          ""Value"": ""Hide"",
+          ""SpecCharValueInstantiatedAs"": {
+            ""ValueType"": ""String"",
+            ""UnitOfMeasure"": """",
+            ""RateCodes"": {
+              ""RateCode"": []
+            }
+          }
+        },
+        {
+          ""Characteristic"": {
+            ""ID"": ""customerActiveAmendmentCount"",
+            ""Name"": ""RSP Active Amendment Count"",
+            ""Type"": ""KeyValue"",
+            ""DisplayFormat"": """",
+            ""MinCardinality"": 0,
+            ""MaxCardinality"": 1,
+            ""RateCodes"": {
+              ""RateCode"": []
+            }
+          },
+          ""Value"": ""0"",
+          ""SpecCharValueInstantiatedAs"": {
+            ""ValueType"": ""Integer"",
+            ""UnitOfMeasure"": """",
+            ""RateCodes"": {
+              ""RateCode"": []
+            }
+          }
+        }
+      ]
+    },
+    ""BusinessInteractionComprisedOf"": {
+      ""BusinessInteractionItem"": [
+        {
+          ""Action"": ""Add"",
+          ""@attributes"": {
+            ""type"": ""CustomerOrderItem""
+          },
+          ""ItemInvolvesInventoryEntities"": {
+            ""InventoryEntity"": [
+              {
+                ""ID"": """",
+                ""Name"": """",
+                ""Description"": """",
+                ""Version"": """",
+                ""Status"": """",
+                ""ConfigurationStatus"": """",
+                ""IsManaged"": """",
+                ""Sequence"": """",
+                ""@attributes"": {
+                  ""type"": ""Product""
+                },
+                ""OfferingDescribes"": {
+                  ""ID"": ""UFF-OFF-BITSTREAM-2U-08-00""
+                },
+                ""SpecifiedBy"": {
+                  ""ID"": ""UFF-PRD-BITSTREAM-2U-08-00"",
+                  ""Type"": ""Product""
+                },
+                ""DescribedBy"": {
+                  ""CharacteristicValue"": [
+                    {
+                      ""Characteristic"": {
+                        ""ID"": ""customerSegment"",
+                        ""Name"": ""Customer Segment"",
+                        ""Type"": ""Enumerated"",
+                        ""DisplayFormat"": """",
+                        ""MinCardinality"": 1,
+                        ""MaxCardinality"": 1,
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      },
+                      ""Value"": ""Residential"",
+                      ""SpecCharValueInstantiatedAs"": {
+                        ""ValueType"": ""String"",
+                        ""UnitOfMeasure"": """",
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      }
+                    },
+                    {
+                      ""Characteristic"": {
+                        ""ID"": ""serviceTemplate"",
+                        ""Name"": ""Service Template"",
+                        ""Type"": ""Enumerated"",
+                        ""DisplayFormat"": """",
+                        ""MinCardinality"": 0,
+                        ""MaxCardinality"": 1,
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      },
+                      ""Value"": ""Bitstream 2 Ultra 100/20 2.5/2.5"",
+                      ""SpecCharValueInstantiatedAs"": {
+                        ""ValueType"": ""String"",
+                        ""UnitOfMeasure"": """",
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      }
+                    },
+                    {
+                      ""Characteristic"": {
+                        ""ID"": ""price"",
+                        ""Name"": ""Price"",
+                        ""Type"": ""KeyValue"",
+                        ""DisplayFormat"": ""None"",
+                        ""MinCardinality"": 0,
+                        ""MaxCardinality"": 1,
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      },
+                      ""Value"": ""0.00"",
+                      ""SpecCharValueInstantiatedAs"": {
+                        ""ValueType"": ""String"",
+                        ""UnitOfMeasure"": ""NZD"",
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      }
+                    },
+                    {
+                      ""Characteristic"": {
+                        ""ID"": ""enhancedServiceLevel"",
+                        ""Name"": ""Enhanced Service Level"",
+                        ""Type"": ""Enumerated"",
+                        ""DisplayFormat"": """",
+                        ""MinCardinality"": 0,
+                        ""MaxCardinality"": 1,
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      },
+                      ""Value"": ""None"",
+                      ""SpecCharValueInstantiatedAs"": {
+                        ""ValueType"": ""String"",
+                        ""UnitOfMeasure"": """",
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      }
+                    },
+                    {
+                      ""Characteristic"": {
+                        ""ID"": ""diversity"",
+                        ""Name"": ""Diversity"",
+                        ""Type"": ""Enumerated"",
+                        ""DisplayFormat"": """",
+                        ""MinCardinality"": 0,
+                        ""MaxCardinality"": 1,
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      },
+                      ""Value"": ""None"",
+                      ""SpecCharValueInstantiatedAs"": {
+                        ""ValueType"": ""String"",
+                        ""UnitOfMeasure"": """",
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      }
+                    },
+                    {
+                      ""Characteristic"": {
+                        ""ID"": ""endUserDetails"",
+                        ""Name"": ""End User (Customer) Details"",
+                        ""Type"": ""Collection"",
+                        ""DisplayFormat"": """",
+                        ""MinCardinality"": 1,
+                        ""MaxCardinality"": 1,
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      },
+                      ""CharacteristicValueReferences"": {
+                        ""CharacteristicValue"": [
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""customerName"",
+                              ""Name"": ""Customer Name"",
+                              ""Type"": ""KeyValue"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 1,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""hd cust"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""String"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          },
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""contactNumber"",
+                              ""Name"": ""Contact Number"",
+                              ""Type"": ""KeyValue"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 1,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""hd1234567"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""String"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          },
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""customerEmailAddress"",
+                              ""Name"": ""Customer Email Address"",
+                              ""Type"": ""KeyValue"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 1,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""hd@mail.com"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""String"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          },
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""nonBuildingAccessPoint"",
+                              ""Name"": ""Non Building Access Point"",
+                              ""Type"": ""KeyValue"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 0,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""false"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""Boolean"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          },
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""vulnerableEndUser"",
+                              ""Name"": ""Vulnerable End User"",
+                              ""Type"": ""KeyValue"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 0,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""false"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""Boolean"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      ""Value"": """"
+                    },
+                    {
+                      ""Characteristic"": {
+                        ""ID"": ""technicalAttributes"",
+                        ""Name"": ""Technical Attributes"",
+                        ""Type"": ""Collection"",
+                        ""DisplayFormat"": """",
+                        ""MinCardinality"": 1,
+                        ""MaxCardinality"": 1,
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      },
+                      ""CharacteristicValueReferences"": {
+                        ""CharacteristicValue"": [
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""dhcpRelayAgent"",
+                              ""Name"": ""DHCP Relay Agent"",
+                              ""Type"": ""Enumerated"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 0,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""Default"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""String"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          },
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""pppoeIntermediateAgent"",
+                              ""Name"": ""PPPoE Intermediate Agent"",
+                              ""Type"": ""Enumerated"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 0,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""Default"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""String"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          },
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""uniSpeed"",
+                              ""Name"": ""UNI: Speed"",
+                              ""Type"": ""Enumerated"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 0,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""Default"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""String"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          },
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""uniDuplex"",
+                              ""Name"": ""UNI: Duplex"",
+                              ""Type"": ""Enumerated"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 0,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""Default"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""String"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          },
+                          {
+                            ""Characteristic"": {
+                              ""ID"": ""uniEncapsulation"",
+                              ""Name"": ""UNI: Encapsulation"",
+                              ""Type"": ""Enumerated"",
+                              ""DisplayFormat"": """",
+                              ""MinCardinality"": 0,
+                              ""MaxCardinality"": 1,
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            },
+                            ""Value"": ""Default"",
+                            ""SpecCharValueInstantiatedAs"": {
+                              ""ValueType"": ""String"",
+                              ""UnitOfMeasure"": """",
+                              ""RateCodes"": {
+                                ""RateCode"": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      ""Value"": """"
+                    },
+                    {
+                      ""Characteristic"": {
+                        ""ID"": ""legacyAttributes"",
+                        ""Name"": ""Legacy Attributes"",
+                        ""Type"": ""Collection"",
+                        ""DisplayFormat"": """",
+                        ""MinCardinality"": 1,
+                        ""MaxCardinality"": 1,
+                        ""RateCodes"": {
+                          ""RateCode"": []
+                        }
+                      },
+                      ""CharacteristicValueReferences"": {
+                        ""CharacteristicValue"": []
+                      }
+                    }
+                  ]
+                },
+                ""PlaceInteractionRoles"": {
+                  ""PlaceInteractionRole"": []
+                },
+                ""PartyInteractionRoles"": {
+                  ""PartyInteractionRole"": []
+                },
+                ""ManagedEntityRelationships"": {
+                  ""ManagedEntityRelationship"": []
+                },
+                ""Class"": null,
+                ""ValidFor"": null,
+                ""ExternalReferences"": {
+                  ""ExternalReference"": []
+                },
+                ""Associations"": null,
+                ""ContractSummary"": null,
+                ""OperationalStatus"": null,
+                ""HeadlineCharacteristics"": """",
+                ""RemoteInventories"": []
+              }
+            ]
+          },
+          ""ItemInvolvesLocations"": {
+            ""PlaceInteractionRole"": [
+              {
+                ""InteractionRoleType"": ""ServiceAccessTo"",
+                ""Place"": {
+                  ""ID"": ""0029111800TA7DC"",
+                  ""Name"": """",
+                  ""Description"": """",
+                  ""SecondaryComplexName"": """",
+                  ""UnitTypeCode"": ""UNIT"",
+                  ""UnitNumber"": ""4"",
+                  ""LevelTypeCode"": """",
+                  ""LevelNumber"": """",
+                  ""ComplexRoadNumber1"": """",
+                  ""ComplexRoadNumber2"": """",
+                  ""ComplexRoadName"": """",
+                  ""ComplexRoadTypeCode"": """",
+                  ""ComplexRoadSuffixCode"": """",
+                  ""AddressSiteName"": """",
+                  ""LotNumber"": """",
+                  ""PlanNumber"": """",
+                  ""RoadNumber1"": ""72"",
+                  ""RoadNumber2"": """",
+                  ""RoadNumber1Suffix"": """",
+                  ""RoadNumber2Suffix"": """",
+                  ""RoadName"": ""ARMSTRONG"",
+                  ""RoadTypeCode"": ""AVENUE"",
+                  ""RoadSuffixCode"": """",
+                  ""LocalityName"": ""TE AWAMUTU"",
+                  ""LocationDescriptor"": """",
+                  ""Postcode"": ""3800"",
+                  ""State"": """",
+                  ""Country"": ""NEW ZEALAND"",
+                  ""BuildingName"": """",
+                  ""PrivateStreetName"": """",
+                  ""CityOrTown"": ""TE AWAMUTU"",
+                  ""ParcelID"": ""4299881"",
+                  ""FormattedAddress"": ""UNIT 4, 72 ARMSTRONG AVENUE, TE AWAMUTU, TE AWAMUTU 3800"",
+                  ""FormattedLocalAddress"": """",
+                  ""DescribedBy"": {
+                    ""CharacteristicValue"": [
+                      {
+                        ""Value"": ""TE AWAMUTU"",
+                        ""Characteristic"": {
+                          ""ID"": ""Region""
+                        }
+                      },
+                      {
+                        ""Value"": ""RESIDENTIAL"",
+                        ""Characteristic"": {
+                          ""ID"": ""Address Class""
+                        }
+                      }
+                    ]
+                  },
+                  ""GeographicLocations"": {},
+                  ""AddressProvider"": """"
+                }
+              }
+            ]
+          },
+          ""ItemInvolvesAppointments"": null,
+          ""BusinessInteractionItemRelationships"": {
+            ""BusinessInteractionItemRelationship"": []
+          },
+          ""BusinessInteractionItemPrice"": null
+        }
+      ]
+    },
+    ""BusinessInteractionInvolves"": {
+      ""PartyInteractionRole"": [
+        {
+          ""InteractionRoleType"": ""CommerciallyResponsible"",
+          ""PartyRole"": {
+            ""ID"": ""PTR-PROVIDER-UFF""
+          }
+        },
+        {
+          ""InteractionRoleType"": ""Submitter"",
+          ""PartyRole"": {
+            ""ID"": ""PTRUSER00000001"",
+            ""Description"": """",
+            ""Type"": ""SystemAdministrator"",
+            ""Party"": {
+              ""Type"": ""Individual"",
+              ""ID"": ""PTYUSER00000001"",
+              ""PartyRoles"": null,
+              ""Salutation"": """",
+              ""FirstName"": ""System"",
+              ""LastName"": ""Administrator"",
+              ""JobTitle"": """",
+              ""OrganisationName"": """",
+              ""ValidFrom"": false,
+              ""ValidTo"": false,
+              ""Status"": ""Active"",
+              ""Description"": """",
+              ""IncludePartyRole"": true,
+              ""OrganisationUnitName"": """",
+              ""PartyUser"": {
+                ""UserID"": ""admin"",
+                ""UserPassword"": """",
+                ""Description"": """",
+                ""CommonName"": """",
+                ""DistinguishName"": """",
+                ""OrganisationName"": """",
+                ""AuthenticationSource"": {
+                  ""ID"": """",
+                  ""Name"": """",
+                  ""Type"": ""Internal""
+                },
+                ""Principal"": ""d24c52e1-4038-49e6-a2c6-aabfe2a12382""
+              },
+              ""DescribedBy"": [],
+              ""Name"": ""System Administrator"",
+              ""TradingName"": """",
+              ""BusinessNumber"": """",
+              ""MarketSegment"": """",
+              ""Avatar"": """"
+            },
+            ""ContactMediums"": [
+              {
+                ""Type"": ""EmailContact"",
+                ""CountryCode"": """",
+                ""AreaCode"": """",
+                ""Number"": """",
+                ""EmailAddress"": ""admin@dgitsystems.com"",
+                ""Name"": """",
+                ""Description"": """",
+                ""EmailType"": ""Contact"",
+                ""RelatedPartyRole"": null,
+                ""Address"": null
+              }
+            ],
+            ""PartyRoleRelationships"": [
+              {
+                ""ID"": ""PTRORG000000000"",
+                ""Description"": """",
+                ""Type"": ""System"",
+                ""Party"": {
+                  ""Type"": ""Organisation"",
+                  ""ID"": ""PTYORG000000000"",
+                  ""PartyRoles"": [],
+                  ""Salutation"": """",
+                  ""FirstName"": """",
+                  ""LastName"": """",
+                  ""JobTitle"": """",
+                  ""OrganisationName"": ""Telflow"",
+                  ""ValidFrom"": false,
+                  ""ValidTo"": false,
+                  ""Status"": ""Active"",
+                  ""Description"": """",
+                  ""IncludePartyRole"": true,
+                  ""OrganisationUnitName"": """",
+                  ""PartyUser"": {
+                    ""UserID"": """",
+                    ""UserPassword"": """",
+                    ""Description"": """",
+                    ""CommonName"": """",
+                    ""DistinguishName"": """",
+                    ""OrganisationName"": """",
+                    ""AuthenticationSource"": {
+                      ""ID"": """",
+                      ""Name"": """",
+                      ""Type"": ""Internal""
+                    },
+                    ""Principal"": ""6d2fea5a-64cf-4be2-83cf-56a6783b78fe""
+                  },
+                  ""DescribedBy"": [],
+                  ""Name"": ""Telflow"",
+                  ""TradingName"": """",
+                  ""BusinessNumber"": """",
+                  ""MarketSegment"": """",
+                  ""Avatar"": """"
+                },
+                ""ContactMediums"": [
+                  {
+                    ""Type"": ""EmailContact"",
+                    ""CountryCode"": """",
+                    ""AreaCode"": """",
+                    ""Number"": """",
+                    ""EmailAddress"": ""admin@dgitsystems.com"",
+                    ""Name"": """",
+                    ""Description"": """",
+                    ""EmailType"": ""Contact"",
+                    ""RelatedPartyRole"": null,
+                    ""Address"": null
+                  }
+                ],
+                ""PartyRoleRelationships"": [],
+                ""DefaultCpaId"": """",
+                ""BillingAccountId"": """",
+                ""Status"": ""Active""
+              }
+            ],
+            ""DefaultCpaId"": """",
+            ""BillingAccountId"": """",
+            ""Status"": ""Active""
+          }
+        }
+      ]
+    },
+    ""BusinessInteractionLocations"": null,
+    ""BusinessInteractionRelationships"": {
+      ""BusinessInteractionRelationship"": []
+    },
+    ""BusinessInteractionException"": null,
+    ""Notes"": [
+      {
+        ""Name"": ""Order Note"",
+        ""NoteType"": ""CustomerFacing"",
+        ""CreatorName"": ""System Administrator"",
+        ""CreationDate"": ""2020-12-25T08:39:17.740Z""
+      }
+    ],
+    ""ExternalReferences"": {
+      ""ExternalReference"": []
+    },
+    ""History"": [],
+    ""BusinessInteractionAgreements"": [],
+    ""BusinessInteractionAction"": null,
+    ""BusinessInteractionJobs"": {
+      ""Job"": []
+    },
+    ""BusinessInteractionTasks"": {
+      ""Task"": []
+    },
+    ""ContractSummary"": {
+      ""Version"": """",
+      ""ContractTerm"": {
+        ""Type"": ""None"",
+        ""IsDefault"": true
+      },
+      ""TotalContractValue"": null,
+      ""TotalTax"": """",
+      ""TaxType"": """",
+      ""TaxDescription"": """",
+      ""QuotedDate"": """",
+      ""ExpiryDate"": """",
+      ""ContractStartDate"": """",
+      ""ContractEndDate"": """",
+      ""QuoteApprovedDate"": """",
+      ""PriceEffectiveDate"": """",
+      ""ChargeGroups"": {
+        ""ChargeGroup"": []
+      },
+      ""Fault"": null
+    },
+    ""Activities"": [],
+    ""OrderType"": ""New"",
+    ""ChangeType"": """",
+    ""OrderCategory"": ""Product"",
+    ""CustomerReference"": ""hd_jmeter"",
+    ""InventoryClass"": """",
+    ""DesignStrategy"": """",
+    ""DueDate"": """",
+    ""@attributes"": {
+      ""type"": ""CustomerOrder""
+    },
+    ""DueTime"": ""00:00"",
+    ""getLinkTypesPromise"": null,
+    ""linkTypes"": [
+      {
+        ""label"": ""Peer"",
+        ""Action"": ""Peer"",
+        ""value"": ""peer"",
+        ""ID"": ""Peer"",
+        ""domain"": ""Peer"",
+        ""AccessLevel"": ""ReadUpdate""
+      },
+      {
+        ""ID"": ""UFF-ASP-BILLING-ORDER-08-00"",
+        ""label"": ""Created by"",
+        ""targetLabel"": ""Links to"",
+        ""value"": ""UFF-ASP-BILLING-ORDER-08-00"",
+        ""specifications"": [
+          {
+            ""Type"": ""Enquiry"",
+            ""Class"": {
+              ""ID"": ""Billing Workflow""
+            }
+          }
+        ],
+        ""SpecifiedBy"": {
+          ""ID"": ""UFF-ASP-BILLING-ORDER-08-00"",
+          ""Name"": ""Billing Enquriy Order Association"",
+          ""Type"": ""Association"",
+          ""Version"": ""8.0"",
+          ""Alias"": """",
+          ""Status"": ""Published"",
+          ""Description"": """",
+          ""DescribedBy"": {},
+          ""SpecCharacteristics"": {},
+          ""SpecificationRelationships"": {},
+          ""Process"": """",
+          ""Class"": {},
+          ""Tags"": {},
+          ""Supplier"": {},
+          ""ValidFor"": {},
+          ""Lifecycle"": {},
+          ""PlaceCardinalities"": {
+            ""PlaceCardinality"": {
+              ""Type"": ""ServiceAccessTo"",
+              ""MinCardinality"": ""0"",
+              ""MaxCardinality"": ""0""
+            }
+          },
+          ""NameFormat"": """",
+          ""Offerings"": {},
+          ""Rules"": {},
+          ""RateCodes"": [],
+          ""AssociationType"": ""Association"",
+          ""Source"": {
+            ""Name"": ""Billing Enquiry"",
+            ""Action"": ""Created by"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": [
+                {
+                  ""Type"": ""NewCustomerOrder""
+                },
+                {
+                  ""Type"": ""ChangeCustomerOrder""
+                }
+              ]
+            }
+          },
+          ""Target"": {
+            ""Name"": ""Order"",
+            ""Action"": ""Links to"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""Enquiry"",
+                ""Class"": {
+                  ""ID"": ""Billing Workflow""
+                }
+              }
+            }
+          },
+          ""Permissions"": {
+            ""Permission"": [
+              {
+                ""AccessLevel"": ""NoAccess"",
+                ""PartyRoleTypes"": {
+                  ""PartyRoleType"": [
+                    ""Customer"",
+                    ""ServiceDeliveryPartner""
+                  ]
+                }
+              },
+              {
+                ""AccessLevel"": ""ReadUpdate"",
+                ""PartyRoleTypes"": {
+                  ""PartyRoleType"": [
+                    ""Provider"",
+                    ""System""
+                  ]
+                }
+              }
+            ]
+          },
+          ""AccessLevel"": ""ReadUpdate"",
+          ""TermsOfService"": {},
+          ""Owner"": """",
+          ""Meta"": {},
+          ""SystemDefinitions"": {}
+        },
+        ""Name"": ""Billing Enquiry"",
+        ""Action"": ""Created by"",
+        ""Count"": 0,
+        ""AccessLevel"": ""ReadUpdate"",
+        ""domain"": ""Enquiry""
+      },
+      {
+        ""ID"": ""UFF-ASP-REINSTATE-ORDER-08-00"",
+        ""label"": ""Created by"",
+        ""targetLabel"": ""Links to"",
+        ""value"": ""UFF-ASP-REINSTATE-ORDER-08-00"",
+        ""specifications"": [
+          {
+            ""Type"": ""Enquiry"",
+            ""Class"": {
+              ""ID"": ""Close Out Workflow""
+            }
+          }
+        ],
+        ""SpecifiedBy"": {
+          ""ID"": ""UFF-ASP-REINSTATE-ORDER-08-00"",
+          ""Name"": ""Close Out Enquiry Order Association"",
+          ""Type"": ""Association"",
+          ""Version"": ""8.0"",
+          ""Alias"": """",
+          ""Status"": ""Published"",
+          ""Description"": """",
+          ""DescribedBy"": {},
+          ""SpecCharacteristics"": {},
+          ""SpecificationRelationships"": {},
+          ""Process"": """",
+          ""Class"": {},
+          ""Tags"": {},
+          ""Supplier"": {},
+          ""ValidFor"": {},
+          ""Lifecycle"": {},
+          ""PlaceCardinalities"": {
+            ""PlaceCardinality"": {
+              ""Type"": ""ServiceAccessTo"",
+              ""MinCardinality"": ""0"",
+              ""MaxCardinality"": ""0""
+            }
+          },
+          ""NameFormat"": """",
+          ""Offerings"": {},
+          ""Rules"": {},
+          ""RateCodes"": [],
+          ""AssociationType"": ""Association"",
+          ""Source"": {
+            ""Name"": ""Close Out Enquiry"",
+            ""Action"": ""Created by"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": [
+                {
+                  ""Type"": ""NewCustomerOrder""
+                },
+                {
+                  ""Type"": ""ChangeCustomerOrder""
+                }
+              ]
+            }
+          },
+          ""Target"": {
+            ""Name"": ""Order"",
+            ""Action"": ""Links to"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""Enquiry"",
+                ""Class"": {
+                  ""ID"": ""Close Out Workflow""
+                }
+              }
+            }
+          },
+          ""Permissions"": {
+            ""Permission"": [
+              {
+                ""AccessLevel"": ""NoAccess"",
+                ""PartyRoleTypes"": {
+                  ""PartyRoleType"": [
+                    ""Customer"",
+                    ""ServiceDeliveryPartner""
+                  ]
+                }
+              },
+              {
+                ""AccessLevel"": ""ReadUpdate"",
+                ""PartyRoleTypes"": {
+                  ""PartyRoleType"": [
+                    ""Provider"",
+                    ""System""
+                  ]
+                }
+              }
+            ]
+          },
+          ""AccessLevel"": ""ReadUpdate"",
+          ""TermsOfService"": {},
+          ""Owner"": """",
+          ""Meta"": {},
+          ""SystemDefinitions"": {}
+        },
+        ""Name"": ""Close Out Enquiry"",
+        ""Action"": ""Created by"",
+        ""Count"": 0,
+        ""AccessLevel"": ""ReadUpdate"",
+        ""domain"": ""Enquiry""
+      },
+      {
+        ""ID"": ""ASP000000000116"",
+        ""label"": ""targeted by"",
+        ""targetLabel"": ""targets"",
+        ""value"": ""ASP000000000116"",
+        ""specifications"": [
+          {
+            ""Type"": ""Enquiry""
+          }
+        ],
+        ""SpecifiedBy"": {
+          ""ID"": ""ASP000000000116"",
+          ""Name"": ""Target Test"",
+          ""Type"": ""Association"",
+          ""Version"": ""1MK"",
+          ""Alias"": """",
+          ""Status"": ""Published"",
+          ""Description"": """",
+          ""DescribedBy"": {},
+          ""SpecCharacteristics"": {},
+          ""SpecificationRelationships"": {},
+          ""Process"": """",
+          ""Class"": {},
+          ""Tags"": {},
+          ""Supplier"": {},
+          ""ValidFor"": {},
+          ""Lifecycle"": {},
+          ""PlaceCardinalities"": {
+            ""PlaceCardinality"": {
+              ""Type"": ""ServiceAccessTo"",
+              ""MinCardinality"": ""0"",
+              ""MaxCardinality"": ""0""
+            }
+          },
+          ""NameFormat"": """",
+          ""Offerings"": {},
+          ""Rules"": {},
+          ""RateCodes"": [],
+          ""AssociationType"": ""Association"",
+          ""Source"": {
+            ""Name"": ""Target"",
+            ""Action"": ""targeted by"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""NewCustomerOrder""
+              }
+            }
+          },
+          ""Target"": {
+            ""Name"": ""Source"",
+            ""Action"": ""targets"",
+            ""MinCardinality"": ""1"",
+            ""MaxCardinality"": ""50"",
+            ""DefaultCardinality"": ""1"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""Enquiry""
+              }
+            }
+          },
+          ""Permissions"": {
+            ""Permission"": {
+              ""AccessLevel"": ""ReadUpdate"",
+              ""PartyRoleTypes"": {
+                ""PartyRoleType"": [
+                  ""Provider"",
+                  ""Customer"",
+                  ""ServiceDeliveryPartner"",
+                  ""System""
+                ]
+              }
+            }
+          },
+          ""AccessLevel"": ""ReadUpdate"",
+          ""TermsOfService"": {},
+          ""Owner"": """",
+          ""Meta"": {},
+          ""SystemDefinitions"": {}
+        },
+        ""Name"": ""Target"",
+        ""Action"": ""targeted by"",
+        ""Count"": 0,
+        ""AccessLevel"": ""ReadUpdate"",
+        ""domain"": ""Enquiry""
+      },
+      {
+        ""ID"": ""ASP000000000128"",
+        ""label"": ""targeted by"",
+        ""targetLabel"": ""targeted by"",
+        ""value"": ""ASP000000000128"",
+        ""specifications"": [
+          {
+            ""Type"": ""Enquiry"",
+            ""Class"": {
+              ""ID"": ""UFF Only""
+            }
+          }
+        ],
+        ""SpecifiedBy"": {
+          ""ID"": ""ASP000000000128"",
+          ""Name"": ""Target Test"",
+          ""Type"": ""Association"",
+          ""Version"": ""2MK"",
+          ""Alias"": """",
+          ""Status"": ""Published"",
+          ""Description"": """",
+          ""DescribedBy"": {},
+          ""SpecCharacteristics"": {},
+          ""SpecificationRelationships"": {},
+          ""Process"": """",
+          ""Class"": {},
+          ""Tags"": {},
+          ""Supplier"": {},
+          ""ValidFor"": {},
+          ""Lifecycle"": {},
+          ""PlaceCardinalities"": {
+            ""PlaceCardinality"": {
+              ""Type"": ""ServiceAccessTo"",
+              ""MinCardinality"": ""0"",
+              ""MaxCardinality"": ""0""
+            }
+          },
+          ""NameFormat"": """",
+          ""Offerings"": {},
+          ""Rules"": {},
+          ""RateCodes"": [],
+          ""AssociationType"": ""Association"",
+          ""Source"": {
+            ""Name"": ""Source"",
+            ""Action"": ""targets"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""Enquiry"",
+                ""Class"": {
+                  ""ID"": ""UFF Only""
+                }
+              }
+            }
+          },
+          ""Target"": {
+            ""Name"": ""Target"",
+            ""Action"": ""targeted by"",
+            ""MinCardinality"": ""1"",
+            ""MaxCardinality"": ""50"",
+            ""DefaultCardinality"": ""1"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""NewCustomerOrder""
+              }
+            }
+          },
+          ""Permissions"": {
+            ""Permission"": {
+              ""AccessLevel"": ""ReadUpdate"",
+              ""PartyRoleTypes"": {
+                ""PartyRoleType"": [
+                  ""Provider"",
+                  ""Customer"",
+                  ""ServiceDeliveryPartner"",
+                  ""System""
+                ]
+              }
+            }
+          },
+          ""AccessLevel"": ""ReadUpdate"",
+          ""TermsOfService"": {},
+          ""Owner"": """",
+          ""Meta"": {},
+          ""SystemDefinitions"": {}
+        },
+        ""Name"": ""Target"",
+        ""Action"": ""targeted by"",
+        ""Count"": 0,
+        ""AccessLevel"": ""ReadUpdate"",
+        ""domain"": ""Enquiry""
+      }
+    ],
+    ""associationLabels"": [
+      {
+        ""label"": ""Peer"",
+        ""Action"": ""Peer"",
+        ""value"": ""peer"",
+        ""ID"": ""Peer"",
+        ""domain"": ""Peer"",
+        ""AccessLevel"": ""ReadUpdate""
+      },
+      {
+        ""ID"": ""UFF-ASP-BILLING-ORDER-08-00"",
+        ""label"": ""Created by"",
+        ""targetLabel"": ""Links to"",
+        ""value"": ""UFF-ASP-BILLING-ORDER-08-00"",
+        ""specifications"": [
+          {
+            ""Type"": ""Enquiry"",
+            ""Class"": {
+              ""ID"": ""Billing Workflow""
+            }
+          }
+        ],
+        ""SpecifiedBy"": {
+          ""ID"": ""UFF-ASP-BILLING-ORDER-08-00"",
+          ""Name"": ""Billing Enquriy Order Association"",
+          ""Type"": ""Association"",
+          ""Version"": ""8.0"",
+          ""Alias"": """",
+          ""Status"": ""Published"",
+          ""Description"": """",
+          ""DescribedBy"": {},
+          ""SpecCharacteristics"": {},
+          ""SpecificationRelationships"": {},
+          ""Process"": """",
+          ""Class"": {},
+          ""Tags"": {},
+          ""Supplier"": {},
+          ""ValidFor"": {},
+          ""Lifecycle"": {},
+          ""PlaceCardinalities"": {
+            ""PlaceCardinality"": {
+              ""Type"": ""ServiceAccessTo"",
+              ""MinCardinality"": ""0"",
+              ""MaxCardinality"": ""0""
+            }
+          },
+          ""NameFormat"": """",
+          ""Offerings"": {},
+          ""Rules"": {},
+          ""RateCodes"": [],
+          ""AssociationType"": ""Association"",
+          ""Source"": {
+            ""Name"": ""Billing Enquiry"",
+            ""Action"": ""Created by"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": [
+                {
+                  ""Type"": ""NewCustomerOrder""
+                },
+                {
+                  ""Type"": ""ChangeCustomerOrder""
+                }
+              ]
+            }
+          },
+          ""Target"": {
+            ""Name"": ""Order"",
+            ""Action"": ""Links to"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""Enquiry"",
+                ""Class"": {
+                  ""ID"": ""Billing Workflow""
+                }
+              }
+            }
+          },
+          ""Permissions"": {
+            ""Permission"": [
+              {
+                ""AccessLevel"": ""NoAccess"",
+                ""PartyRoleTypes"": {
+                  ""PartyRoleType"": [
+                    ""Customer"",
+                    ""ServiceDeliveryPartner""
+                  ]
+                }
+              },
+              {
+                ""AccessLevel"": ""ReadUpdate"",
+                ""PartyRoleTypes"": {
+                  ""PartyRoleType"": [
+                    ""Provider"",
+                    ""System""
+                  ]
+                }
+              }
+            ]
+          },
+          ""AccessLevel"": ""ReadUpdate"",
+          ""TermsOfService"": {},
+          ""Owner"": """",
+          ""Meta"": {},
+          ""SystemDefinitions"": {}
+        },
+        ""Name"": ""Billing Enquiry"",
+        ""Action"": ""Created by"",
+        ""Count"": 0,
+        ""AccessLevel"": ""ReadUpdate"",
+        ""domain"": ""Enquiry""
+      },
+      {
+        ""ID"": ""UFF-ASP-REINSTATE-ORDER-08-00"",
+        ""label"": ""Created by"",
+        ""targetLabel"": ""Links to"",
+        ""value"": ""UFF-ASP-REINSTATE-ORDER-08-00"",
+        ""specifications"": [
+          {
+            ""Type"": ""Enquiry"",
+            ""Class"": {
+              ""ID"": ""Close Out Workflow""
+            }
+          }
+        ],
+        ""SpecifiedBy"": {
+          ""ID"": ""UFF-ASP-REINSTATE-ORDER-08-00"",
+          ""Name"": ""Close Out Enquiry Order Association"",
+          ""Type"": ""Association"",
+          ""Version"": ""8.0"",
+          ""Alias"": """",
+          ""Status"": ""Published"",
+          ""Description"": """",
+          ""DescribedBy"": {},
+          ""SpecCharacteristics"": {},
+          ""SpecificationRelationships"": {},
+          ""Process"": """",
+          ""Class"": {},
+          ""Tags"": {},
+          ""Supplier"": {},
+          ""ValidFor"": {},
+          ""Lifecycle"": {},
+          ""PlaceCardinalities"": {
+            ""PlaceCardinality"": {
+              ""Type"": ""ServiceAccessTo"",
+              ""MinCardinality"": ""0"",
+              ""MaxCardinality"": ""0""
+            }
+          },
+          ""NameFormat"": """",
+          ""Offerings"": {},
+          ""Rules"": {},
+          ""RateCodes"": [],
+          ""AssociationType"": ""Association"",
+          ""Source"": {
+            ""Name"": ""Close Out Enquiry"",
+            ""Action"": ""Created by"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": [
+                {
+                  ""Type"": ""NewCustomerOrder""
+                },
+                {
+                  ""Type"": ""ChangeCustomerOrder""
+                }
+              ]
+            }
+          },
+          ""Target"": {
+            ""Name"": ""Order"",
+            ""Action"": ""Links to"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""Enquiry"",
+                ""Class"": {
+                  ""ID"": ""Close Out Workflow""
+                }
+              }
+            }
+          },
+          ""Permissions"": {
+            ""Permission"": [
+              {
+                ""AccessLevel"": ""NoAccess"",
+                ""PartyRoleTypes"": {
+                  ""PartyRoleType"": [
+                    ""Customer"",
+                    ""ServiceDeliveryPartner""
+                  ]
+                }
+              },
+              {
+                ""AccessLevel"": ""ReadUpdate"",
+                ""PartyRoleTypes"": {
+                  ""PartyRoleType"": [
+                    ""Provider"",
+                    ""System""
+                  ]
+                }
+              }
+            ]
+          },
+          ""AccessLevel"": ""ReadUpdate"",
+          ""TermsOfService"": {},
+          ""Owner"": """",
+          ""Meta"": {},
+          ""SystemDefinitions"": {}
+        },
+        ""Name"": ""Close Out Enquiry"",
+        ""Action"": ""Created by"",
+        ""Count"": 0,
+        ""AccessLevel"": ""ReadUpdate"",
+        ""domain"": ""Enquiry""
+      },
+      {
+        ""ID"": ""ASP000000000116"",
+        ""label"": ""targeted by"",
+        ""targetLabel"": ""targets"",
+        ""value"": ""ASP000000000116"",
+        ""specifications"": [
+          {
+            ""Type"": ""Enquiry""
+          }
+        ],
+        ""SpecifiedBy"": {
+          ""ID"": ""ASP000000000116"",
+          ""Name"": ""Target Test"",
+          ""Type"": ""Association"",
+          ""Version"": ""1MK"",
+          ""Alias"": """",
+          ""Status"": ""Published"",
+          ""Description"": """",
+          ""DescribedBy"": {},
+          ""SpecCharacteristics"": {},
+          ""SpecificationRelationships"": {},
+          ""Process"": """",
+          ""Class"": {},
+          ""Tags"": {},
+          ""Supplier"": {},
+          ""ValidFor"": {},
+          ""Lifecycle"": {},
+          ""PlaceCardinalities"": {
+            ""PlaceCardinality"": {
+              ""Type"": ""ServiceAccessTo"",
+              ""MinCardinality"": ""0"",
+              ""MaxCardinality"": ""0""
+            }
+          },
+          ""NameFormat"": """",
+          ""Offerings"": {},
+          ""Rules"": {},
+          ""RateCodes"": [],
+          ""AssociationType"": ""Association"",
+          ""Source"": {
+            ""Name"": ""Target"",
+            ""Action"": ""targeted by"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""NewCustomerOrder""
+              }
+            }
+          },
+          ""Target"": {
+            ""Name"": ""Source"",
+            ""Action"": ""targets"",
+            ""MinCardinality"": ""1"",
+            ""MaxCardinality"": ""50"",
+            ""DefaultCardinality"": ""1"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""Enquiry""
+              }
+            }
+          },
+          ""Permissions"": {
+            ""Permission"": {
+              ""AccessLevel"": ""ReadUpdate"",
+              ""PartyRoleTypes"": {
+                ""PartyRoleType"": [
+                  ""Provider"",
+                  ""Customer"",
+                  ""ServiceDeliveryPartner"",
+                  ""System""
+                ]
+              }
+            }
+          },
+          ""AccessLevel"": ""ReadUpdate"",
+          ""TermsOfService"": {},
+          ""Owner"": """",
+          ""Meta"": {},
+          ""SystemDefinitions"": {}
+        },
+        ""Name"": ""Target"",
+        ""Action"": ""targeted by"",
+        ""Count"": 0,
+        ""AccessLevel"": ""ReadUpdate"",
+        ""domain"": ""Enquiry""
+      },
+      {
+        ""ID"": ""ASP000000000128"",
+        ""label"": ""targeted by"",
+        ""targetLabel"": ""targeted by"",
+        ""value"": ""ASP000000000128"",
+        ""specifications"": [
+          {
+            ""Type"": ""Enquiry"",
+            ""Class"": {
+              ""ID"": ""UFF Only""
+            }
+          }
+        ],
+        ""SpecifiedBy"": {
+          ""ID"": ""ASP000000000128"",
+          ""Name"": ""Target Test"",
+          ""Type"": ""Association"",
+          ""Version"": ""2MK"",
+          ""Alias"": """",
+          ""Status"": ""Published"",
+          ""Description"": """",
+          ""DescribedBy"": {},
+          ""SpecCharacteristics"": {},
+          ""SpecificationRelationships"": {},
+          ""Process"": """",
+          ""Class"": {},
+          ""Tags"": {},
+          ""Supplier"": {},
+          ""ValidFor"": {},
+          ""Lifecycle"": {},
+          ""PlaceCardinalities"": {
+            ""PlaceCardinality"": {
+              ""Type"": ""ServiceAccessTo"",
+              ""MinCardinality"": ""0"",
+              ""MaxCardinality"": ""0""
+            }
+          },
+          ""NameFormat"": """",
+          ""Offerings"": {},
+          ""Rules"": {},
+          ""RateCodes"": [],
+          ""AssociationType"": ""Association"",
+          ""Source"": {
+            ""Name"": ""Source"",
+            ""Action"": ""targets"",
+            ""MinCardinality"": ""0"",
+            ""MaxCardinality"": ""1"",
+            ""DefaultCardinality"": ""0"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""Enquiry"",
+                ""Class"": {
+                  ""ID"": ""UFF Only""
+                }
+              }
+            }
+          },
+          ""Target"": {
+            ""Name"": ""Target"",
+            ""Action"": ""targeted by"",
+            ""MinCardinality"": ""1"",
+            ""MaxCardinality"": ""50"",
+            ""DefaultCardinality"": ""1"",
+            ""SpecificationDefinitions"": {
+              ""Specification"": {
+                ""Type"": ""NewCustomerOrder""
+              }
+            }
+          },
+          ""Permissions"": {
+            ""Permission"": {
+              ""AccessLevel"": ""ReadUpdate"",
+              ""PartyRoleTypes"": {
+                ""PartyRoleType"": [
+                  ""Provider"",
+                  ""Customer"",
+                  ""ServiceDeliveryPartner"",
+                  ""System""
+                ]
+              }
+            }
+          },
+          ""AccessLevel"": ""ReadUpdate"",
+          ""TermsOfService"": {},
+          ""Owner"": """",
+          ""Meta"": {},
+          ""SystemDefinitions"": {}
+        },
+        ""Name"": ""Target"",
+        ""Action"": ""targeted by"",
+        ""Count"": 0,
+        ""AccessLevel"": ""ReadUpdate"",
+        ""domain"": ""Enquiry""
+      }
+    ]
+  },
+  ""includeInventory"": true
+}"
